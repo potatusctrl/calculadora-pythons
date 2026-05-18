@@ -1,0 +1,14 @@
+import random
+
+numero = random.randint(1, 10)
+
+print("Adivina el número del 1 al 10")
+
+intento = int(input("Tu respuesta: "))
+
+if intento == numero:
+    print("¡Ganaste!")
+
+else:
+    print("Perdiste")
+    print("El número era:", numero)
