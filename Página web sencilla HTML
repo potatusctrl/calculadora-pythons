@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi Página</title>
+</head>
+<body>
+
+    <h1>Bienvenido a mi página</h1>
+
+    <p>Esta es una página creada en HTML.</p>
+
+    <button onclick="saludo()">Haz clic</button>
+
+    <script>
+        function saludo() {
+            alert("Hola mundo");
+        }
+    </script>
+
+</body>
+</html>
